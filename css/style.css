@@ -1,0 +1,386 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-déc.-2017, 12:55:12
+    Author     : docks
+*/
+#easter{
+    text-align: center;
+}
+
+.incline
+{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    height:100px;
+    width : auto;
+    white-space: nowrap;
+}
+
+body{
+    margin-bottom: 50px;
+}
+
+.background_site{
+    background-image:url(../img/test2.png);
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+.div_student_list::-webkit-scrollbar {
+    width: 1em;
+}
+
+.div_student_list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+}
+
+.div_student_list::-webkit-scrollbar-thumb {
+    background-color: lightsteelblue;
+    outline: 1px solid gray;
+}
+
+.background
+{
+
+    background-image:url(../img/background_site.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+.conteneur{
+    padding-top: 20px;
+    max-width: 100%;
+    min-width: 750px;
+    max-height: 1000px;
+    overflow: auto;
+}
+
+.div_student_list{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 430px;
+    overflow: auto;
+    margin-top: 35px;
+}
+
+.div_course_list{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    max-height: 550px;
+    overflow: auto;
+    margin-top: 35px;
+}
+
+.div_course_list::-webkit-scrollbar {
+    width: 1em;
+}
+
+.div_course_list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+}
+
+.div_course_list::-webkit-scrollbar-thumb {
+    background-color: lightsteelblue;
+    outline: 1px solid gray;
+}
+
+.student_list
+{
+    border:1px solid black;
+    width:100%;
+
+}
+.student_list tbody {
+    overflow: auto;
+}
+.student_list tr:nth-child(even){
+    background-color: lightgray;
+    overflow: auto;
+}
+.student_list tr:nth-child(odd){
+    background-color: #5e7dc8;
+    overflow: auto;
+}
+
+.student_list tr th{
+    background-color: #42508d ;
+    text-align: left;
+    overflow: auto;
+}
+
+.student_list tr .colo_date{
+
+    width : 90px;
+
+}
+
+body {
+    padding-left: 150px;
+    padding-right: 20px;
+    padding-bottom : 50px;
+}
+.index {
+    margin-left: auto;
+    margin-right: 130px;
+    max-width: 100%;
+    margin-top: 7%;
+    min-width: 500px;
+    max-height: 600px;
+
+}
+
+
+.blocindex
+{
+    padding: 2%;
+    display :block;
+    background-color: rgba(58, 72, 128, 0.4);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-top: 2%;
+    border: 1px solid black;
+
+}
+
+.blocindex p{
+    font-family: calibri light;
+    font-family: bold;
+}
+
+.titleindex{
+    text-transform: uppercase;
+    font-size: 2.01em;
+    font-family: calibri light;
+    color:black;
+    padding:10px;
+    text-align:center;
+}
+
+.menuindex form table{
+    text-align: center;
+    margin-left : auto;
+    margin-right : auto;
+
+}
+
+.menuindex form table tr .login{
+    text-align: right;
+
+
+}
+
+.main p {
+    text-align: center;
+}
+
+.menuindex p {
+    text-align: center;
+}
+
+.btnindex{
+
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height:25px;
+    color : white;
+    border-radius:15px;
+    border-color: #42508d;
+    background-color: #42508d;
+    vertical-align: middle;
+}
+
+
+.btnnext{
+
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height:25px;
+    color : white;
+    border-radius:15px;
+    background-color: #42508d;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.errors li{
+    color : Red;
+}
+
+.entrer
+{
+    background: White;
+    color:black;
+}
+
+
+.courses_list
+{
+    margin-left: auto;
+    margin-right : auto;
+    border:1px solid black;
+    width:70%;
+    overflow: auto;
+}
+.courses_list tr:nth-child(even){
+    background-color: lightgray;
+}
+.courses_list tr:nth-child(odd){
+    background-color: #5e7dc8;
+}
+
+.courses_list tr th{
+    background-color: #42508d;
+    text-align: left;
+}
+
+
+form.link {
+    display: inline;
+}
+
+form.link input[type="submit"] {
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    color: blue;
+    text-decoration: underline;
+
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 240px;
+    height : 120px;
+    background-color: rgba(119,136, 153,0.9);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top : 30%;
+    margin-left: -100px;
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0.3s;
+    animation: fadeIn 0.3s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#bt-menu {
+
+}
+
+.titre{
+    text-align: center;
+}
+
+#courses_planning tr{
+    border:1px solid black;
+    background: #42508d;
+
+}
+
+#courses_planning td{
+    background: #5e7dc8;
+}
+
+
+
+.course_admin
+{
+    border:1px solid black;
+    width:100%;
+
+}
+.course_admin tbody {
+    overflow: auto;
+}
+.course_admin tr:nth-child(even){
+    background-color: lightgray;
+    overflow: auto;
+}
+.course_admin tr:nth-child(odd){
+    background-color: #5e7dc8;
+    overflow: auto;
+}
+
+.course_admin tr th{
+    background-color: #42508d ;
+    text-align: left;
+    overflow: auto;
+}
+
+label.errors {
+    color: red;
+    font-size: 8pt;
+    padding-left: .5em;
+}
+
+.calendar {
+    background-color: transparent;
+}
+
+.nopresence {
+    background-color: Bisque;
+    text-align : center;
+}
+
+.presence {
+    background-color : lime;
+    text-align : center;
+}
+
+.absent{
+    background-color : Crimson;
+    text-align : center;
+}
+
+.certificat{
+    background-color : deepskyblue;
+    text-align : center;
+}
